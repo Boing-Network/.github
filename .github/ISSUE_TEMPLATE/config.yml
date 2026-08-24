@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Boing-Network/boing.network/security/advisories/new
+    about: Report security issues privately. Do not file a public issue.
+  - name: Documentation
+    url: https://boing.network/docs
+    about: Protocol, RPC, testnet, and product docs.
+  - name: Discussions
+    url: https://github.com/Boing-Network/.github/discussions
+    about: Questions, ideas, and announcements.
+  - name: Discord
+    url: https://discord.gg/boing
+    about: Real-time community chat.

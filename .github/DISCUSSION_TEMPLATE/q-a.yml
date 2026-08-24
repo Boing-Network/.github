@@ -1,0 +1,23 @@
+title: "[q] "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Protocol / node / RPC
+        - Explorer (boing.observer)
+        - Wallet (boing.express)
+        - DeFi (boing.finance)
+        - Testnet / operations
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to do, and what have you already checked?
+    validations:
+      required: true

@@ -1,0 +1,40 @@
+name: Bug report
+description: Something is broken in a Boing Network product.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repository
+      description: Which official repository is affected?
+      options:
+        - boing.network (protocol, node, SDK, website)
+        - boing.observer (explorer)
+        - boing.express (wallet)
+        - boing.finance (DeFi)
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what occurred instead?
+      placeholder: Steps to reproduce, actual result, expected result.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Commit, release tag, or deployed site URL.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, RPC URL (no secrets), node flags — whatever is relevant.
+    validations:
+      required: false

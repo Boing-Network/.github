@@ -1,0 +1,23 @@
+title: "[idea] "
+labels: ["idea"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Protocol / node / RPC
+        - Explorer (boing.observer)
+        - Wallet (boing.express)
+        - DeFi (boing.finance)
+        - Organization / docs
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should exist, and why?
+    validations:
+      required: true
