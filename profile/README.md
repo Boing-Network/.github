@@ -18,6 +18,11 @@
   <a href="https://discord.gg/boing">Discord</a>
 </p>
 
+<p align="center">
+  <strong>Want to collaborate on the Boing Network?</strong><br />
+  Email Nico at <a href="mailto:nico.builds@boing.network">nico.builds@boing.network</a>.
+</p>
+
 ---
 
 Boing is an independent Layer 1: Rust node, BLAKE3 + Ed25519, PoS + HotStuff BFT, and a native **Boing VM** (not EVM bytecode). Quality assurance is enforced at the protocol layer — only deployments that meet the network's rules land on-chain.
