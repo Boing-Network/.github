@@ -6,7 +6,7 @@ Thanks for wanting to help. Boing Network is four official repositories plus thi
 
 | Change | Repository |
 |---|---|
-| Protocol, `boing-node`, crates, `boing-sdk`, website, workers, tutorial scripts, operator docs | [boing.network](https://github.com/Boing-Network/boing.network) — see its [CONTRIBUTING.md](https://github.com/Boing-Network/boing.network/blob/main/CONTRIBUTING.md) |
+| Protocol, `boing-node`, crates, `@boing-network/boing-sdk` (source `boing-sdk/`), website, workers, tutorial scripts, operator docs | [boing.network](https://github.com/Boing-Network/boing.network) — see its [CONTRIBUTING.md](https://github.com/Boing-Network/boing.network/blob/main/CONTRIBUTING.md) |
 | Explorer UI, RPC proxy, DEX/QA explorer tools | [boing.observer](https://github.com/Boing-Network/boing.observer) |
 | Wallet web app, extension, `window.boing`, RPC gateway worker | [boing.express](https://github.com/Boing-Network/boing.express) |
 | DeFi frontend, Workers API, EVM/Solana contracts | [boing.finance](https://github.com/Boing-Network/boing.finance) |
@@ -19,7 +19,7 @@ Cross-repo contracts (RPC URLs, chain IDs, wallet/explorer alignment) live in [T
 - Keep changes focused and match the style of the files you touch.
 - Do not commit secrets, `.env` files, or private keys.
 - For protocol work: `cargo fmt` / `cargo clippy` as appropriate; `cargo test` for touched crates.
-- For `boing-sdk`: `npm run build` and `npm test` after TypeScript changes.
+- For `@boing-network/boing-sdk` (directory `boing-sdk/` in boing.network): `npm run build` and `npm test` after TypeScript changes. Consumers install from npm (`npm i @boing-network/boing-sdk`), not unscoped `boing-sdk`.
 - For app repos: run that repository's lint and test scripts before opening the PR.
 
 ## Issues and discussions
